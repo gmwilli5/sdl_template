@@ -15,3 +15,19 @@ window_class::~window_class()
 {
     SDL_FreeSurface(screen);
 }
+unsigned int window_class::get_width()
+{
+    return screen->w;
+}
+unsigned int window_class::get_height()
+{
+    return screen->h;
+}
+int window_class::get_bpp()
+{
+    return screen->pitch;
+}
+int main()
+{
+
+}

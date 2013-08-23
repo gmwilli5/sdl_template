@@ -8,6 +8,9 @@ class window_class{
         window_class(int width,int height,int bpp);
         SDL_Surface* get_screen();
         void set_screen(SDL_Surface* new_screen);
+        unsigned int get_width();
+        unsigned int get_height();
+        int get_bpp();
         ~window_class();
 };
 #endif // WINDOW_H_INCLUDED

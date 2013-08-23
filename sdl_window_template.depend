@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1376279525 source:/home/georgewilliams/cpp/sdl_window_template/render_tools.cpp
+	"SDL/SDL.h"
+
+1377296430 source:/home/georgewilliams/cpp/sdl_window_template/window.cpp
+	"window.h"
+
+1377296275 /home/georgewilliams/cpp/sdl_window_template/window.h
+	"SDL/SDL.h"
+
+1376281025 source:/home/georgewilliams/cpp/sdl_window_template/events.cpp
+	"events.h"
+
+1376281036 /home/georgewilliams/cpp/sdl_window_template/events.h
+	"SDL/SDL.h"
+

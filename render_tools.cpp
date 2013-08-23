@@ -6,6 +6,6 @@ void apply_surface( int x, int y, SDL_Surface* source, SDL_Surface* destination 
     ///Give the offsets to the rectangle
     offset.x = x;
     offset.y = y;
-        ///Blit the surface
+    ///Blit the surface
     SDL_BlitSurface( source, NULL, destination, &offset );
 }
