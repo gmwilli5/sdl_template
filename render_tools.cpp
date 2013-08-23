@@ -1,4 +1,5 @@
 #include "SDL/SDL.h"
+#include "template_structs.h"
 void apply_surface( int x, int y, SDL_Surface* source, SDL_Surface* destination )
 {
     ///Make a temporary rectangle to hold the offsets

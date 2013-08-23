@@ -1,6 +1,7 @@
 # depslib dependency file v1.0
-1376279525 source:/home/georgewilliams/cpp/sdl_window_template/render_tools.cpp
+1377297707 source:/home/georgewilliams/cpp/sdl_window_template/render_tools.cpp
 	"SDL/SDL.h"
+	"template_structs.h"
 
 1377296430 source:/home/georgewilliams/cpp/sdl_window_template/window.cpp
 	"window.h"
@@ -13,4 +14,6 @@
 
 1376281036 /home/georgewilliams/cpp/sdl_window_template/events.h
 	"SDL/SDL.h"
+
+1377298899 /home/georgewilliams/cpp/sdl_window_template/template_structs.h
 
