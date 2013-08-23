@@ -58,6 +58,46 @@ void operator/=(vec2<T>& a,vec2<T> b)
     //return temp;
 }
 template<typename T>
+bool operator>(vec2<T> a,vec2<T> b)
+{
+    if(a.x>b.x&&a.y>b.y){
+        return true;
+    }
+    return false;
+}
+template<typename T>
+bool operator<(vec2<T> a,vec2<T> b)
+{
+    if(a.x<b.x&&a.y<b.y){
+        return true;
+    }
+    return false;
+}
+template<typename T>
+bool operator>=(vec2<T> a,vec2<T> b)
+{
+    if(a.x>=b.x&&a.y>=b.y){
+        return true;
+    }
+    return false;
+}
+template<typename T>
+bool operator<=(vec2<T> a,vec2<T> b)
+{
+    if(a.x<=b.x&&a.y<=b.y){
+        return true;
+    }
+    return false;
+}
+template<typename T>
+bool operator==(vec2<T> a,vec2<T> b)
+{
+    if(a.x==b.x&&a.y==b.y){
+        return true;
+    }
+    return false;
+}
+template<typename T>
 struct vec3{
     T x;
     T y;
@@ -118,5 +158,45 @@ void operator/=(vec3<T>& a,vec3<T> b)
     /*a.x=a.x+b.x;
     a.y=a.y+b.y;*/
     //return temp;
+}
+template<typename T>
+bool operator>(vec3<T> a,vec3<T> b)
+{
+    if(a.x>b.x&&a.y>b.y&&a.z>b.z){
+        return true;
+    }
+    return false;
+}
+template<typename T>
+bool operator<(vec3<T> a,vec3<T> b)
+{
+    if(a.x<b.x&&a.y<b.y&&a.z<b.z){
+        return true;
+    }
+    return false;
+}
+template<typename T>
+bool operator>=(vec3<T> a,vec3<T> b)
+{
+    if(a.x>=b.x&&a.y>=b.y&&a.z>=b.z){
+        return true;
+    }
+    return false;
+}
+template<typename T>
+bool operator<=(vec3<T> a,vec3<T> b)
+{
+    if(a.x<=b.x&&a.y<=b.y&&a.z<=b.z){
+        return true;
+    }
+    return false;
+}
+template<typename T>
+bool operator==(vec3<T> a,vec3<T> b)
+{
+    if(a.x==b.x&&a.y==b.y&&a.z==b.z){
+        return true;
+    }
+    return false;
 }
 #endif // TEMPLATE_STRUCTS_H_INCLUDED
